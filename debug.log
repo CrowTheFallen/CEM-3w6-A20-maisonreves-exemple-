@@ -1,0 +1,2 @@
+[0828/123034.030:ERROR:file_io.cc(89)] ReadExactly: expected 152, observed 40
+[0828/123202.091:ERROR:settings.cc(325)] Settings version is not 1
