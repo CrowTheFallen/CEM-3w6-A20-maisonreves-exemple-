@@ -40,6 +40,7 @@ namespace MaisonReve.Web.Controllers
             //TODO: Implement Realistic Implementation
             return View(model);
         }
+        [HttpPost]
         public IActionResult Edit(Building model)
         {
             if (ModelState.IsValid)
@@ -49,6 +50,12 @@ namespace MaisonReve.Web.Controllers
             }
             return View(model);
 
+        }
+        public IActionResult Details(int id)
+        {
+            var model = this._repo.GetById(id);
+            //TODO: Implement Realistic Implementation
+            return View(model);
         }
         public IActionResult Delete(int id)
         {

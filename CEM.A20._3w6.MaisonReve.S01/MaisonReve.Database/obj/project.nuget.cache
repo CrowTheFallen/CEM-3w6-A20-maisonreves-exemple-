@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6KiOlzjoIDfZ/mqBZwANCt2KztXzg9IbDauTsH72ldRgCnGMFTUBYno0K+cmw1+mOshV55xPeWpW0jERNiq0Eg==",
+  "dgSpecHash": "AI+cdYNV8bQS5cY4pJ/Rdr7PVs+2jIrBpiHjZaLfQlIEfLOn6Hi2+cBAh5pj9Yub4SjGVCaKdVwzU6GOInsaZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj",
   "expectedPackageFiles": [
@@ -102,7 +102,8 @@
     "C:\\Users\\bigue\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\bigue\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\bigue\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\bigue\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\bigue\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\bigue\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }
