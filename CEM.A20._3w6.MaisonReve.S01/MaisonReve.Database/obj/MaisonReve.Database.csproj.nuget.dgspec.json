@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj": {}
+    "C:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj": {}
   },
   "projects": {
-    "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj": {
+    "C:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj",
+        "projectUniqueName": "C:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj",
         "projectName": "MaisonReve.Database",
-        "projectPath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj",
+        "projectPath": "C:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\MaisonReve.Database.csproj",
         "packagesPath": "C:\\Users\\bigue\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\obj\\",
+        "outputPath": "C:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bigue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,13 +38,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.7, )"
+              "version": "[3.1.6, )"
             },
             "System.Linq": {
               "target": "Package",

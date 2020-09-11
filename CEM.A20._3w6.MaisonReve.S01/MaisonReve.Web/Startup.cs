@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MaisonReve.Database.Repository;
+using MaisonReve.Database.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace MaisonReve.Web
 {
@@ -24,6 +26,11 @@ namespace MaisonReve.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddDbContext<MaisonReveDbContext>(options =>
+                    {
+                        options.UseSqlServer(Configuration.GetConnectionString("MaisonReveDbContext"));
+                    });
+
             services.AddSingleton<BuildingRepo>();
         }
 

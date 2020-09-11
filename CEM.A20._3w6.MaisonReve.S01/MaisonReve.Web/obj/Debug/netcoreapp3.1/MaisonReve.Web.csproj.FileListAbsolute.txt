@@ -420,3 +420,5 @@ C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6
 C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\MaisonReve.Web.pdb
 C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\MaisonReve.Web.genruntimeconfig.cache
 C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\Razor\Views\Building\Details.cshtml.g.cs
+C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
