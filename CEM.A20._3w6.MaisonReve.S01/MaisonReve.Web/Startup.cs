@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using MaisonReve.Database.Repository;
 using MaisonReve.Database.Context;
 using Microsoft.EntityFrameworkCore;
+using MaisonReve.Database.Models;
 
 namespace MaisonReve.Web
 {
@@ -31,7 +32,9 @@ namespace MaisonReve.Web
                         options.UseSqlServer(Configuration.GetConnectionString("MaisonReveDbContext"));
                     });
 
-            services.AddSingleton<BuildingRepo>();
+            services.AddSingleton<IRentTermConverter, RentTermConverter>();
+            services.AddScoped<IBuildingRepo, BuildingRepo>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

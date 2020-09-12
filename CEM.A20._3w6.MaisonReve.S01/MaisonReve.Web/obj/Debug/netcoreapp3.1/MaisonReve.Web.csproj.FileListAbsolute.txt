@@ -427,3 +427,4 @@ C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6
 C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\Razor\Views\RentingLots\Details.cshtml.g.cs
 C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\Razor\Views\RentingLots\Edit.cshtml.g.cs
 C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\Razor\Views\RentingLots\Index.cshtml.g.cs
+C:\Users\bigue\Desktop\Web\Travail\CEM-3w6-A20-maisonreves-exemple-\CEM.A20._3w6.MaisonReve.S01\MaisonReve.Web\obj\Debug\netcoreapp3.1\Razor\Views\Buildings\_RentingLotsDetails.cshtml.g.cs
