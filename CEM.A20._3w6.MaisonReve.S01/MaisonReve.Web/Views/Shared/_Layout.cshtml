@@ -10,6 +10,9 @@
 <body>
     <header>
         @Html.Partial("_topNav")
+        <div class="col-md-6 text-right">
+            @await Html.PartialAsync("_SelectLanguage")
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -24,6 +27,7 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/select-language.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

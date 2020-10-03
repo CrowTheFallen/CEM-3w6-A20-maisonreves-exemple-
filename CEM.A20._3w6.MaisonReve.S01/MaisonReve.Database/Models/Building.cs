@@ -37,37 +37,39 @@ namespace MaisonReve.Database.Models
         public int Id { get; set; }
 
         [MinLength(3)]
-        [Required(ErrorMessage = "Le nom est requis")]
+        [Display(Name = "Name")]
+        [Required(ErrorMessage = "ValidationIsRequired")]
         public string Name { get; set; }
 
 
 
-        [Display(Name = "Adresse")]
+        [Display(Name = "Address")]
         [DataType(DataType.MultilineText)]
-        [MaxLength(500, ErrorMessage = "Maximum de 500 caractères pour l'adresse.")]
+        [MaxLength(500, ErrorMessage = "ValidationMaxCharacters")]
         public string Address { get; set; }
 
-        [Display(Name = "Téléphone")]
-        [Phone(ErrorMessage = "Il faut que le téléphone soit de la forme ###-###-####")]
+        [Display(Name = "Phone Number")]
+        [Phone(ErrorMessage = "ValidationPhoneFormat")]
+        [DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
 
 
-        [Display(Name = "Prénom du propriétaire")]
+        [Display(Name = "Owner Frist Name")]
         public string OwnerFirstName { get; set; }
 
-        [Display(Name = "Nom de famille du propriétaire")]
+        [Display(Name = "Owner Last Name")]
         public string OwnerLastName { get; set; }
 
 
-        [Display(Name = "Descriptif de l'emplacement")]
+        [Display(Name = "Description")]
         [DataType(DataType.MultilineText)]
-        [MaxLength(1500, ErrorMessage = "Maximum de {0} caractères pour l'adresse.")]
+        [MaxLength(1500, ErrorMessage = "ValidationMaxCharacters")]
         public string Description { get; set; }
 
-        [Display(Name = "Publié")]
+        [Display(Name = "Published")]
         public bool Published { get; set; }
 
-        [Display(Name = "Lots locatifs")]
+        [Display(Name = "RentingLots")]
         public virtual List<RentingLot> RentingLots { get; set; }
     }
 }

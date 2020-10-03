@@ -56,9 +56,9 @@
                 @Html.DisplayFor(modelItem => item.Building.Name)
             </td>
             <td>
-                <a asp-action="Edit" asp-controller="RentingLots" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-controller="RentingLots" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-controller="RentingLots" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-controller="RentingLots" asp-route-id="@item.Id">@SharedLocals["Edit"]</a> |
+                <a asp-action="Details" asp-controller="RentingLots" asp-route-id="@item.Id">@SharedLocals["Details"]</a> |
+                <a asp-action="Delete" asp-controller="RentingLots" asp-route-id="@item.Id">@SharedLocals["Delete"]</a>
             </td>
         </tr>
 }

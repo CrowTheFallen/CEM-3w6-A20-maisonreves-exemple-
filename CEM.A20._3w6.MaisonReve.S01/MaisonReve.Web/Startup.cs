@@ -11,6 +11,10 @@ using MaisonReve.Database.Repository;
 using MaisonReve.Database.Context;
 using Microsoft.EntityFrameworkCore;
 using MaisonReve.Database.Models;
+using System.Globalization;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.Extensions.Options;
 
 namespace MaisonReve.Web
 {
@@ -21,17 +25,34 @@ namespace MaisonReve.Web
             Configuration = configuration;
         }
 
+        private CultureInfo[] supportedCultures = new[]
+            {
+                new CultureInfo("en-US"),
+                new CultureInfo("fr-CA")
+            };
+
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+            services.AddControllersWithViews().AddRazorRuntimeCompilation()
+                        .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                          //.AddDataAnnotationsLocalization();
+                          .AddDataAnnotationsLocalization(Options => { Options.DataAnnotationLocalizerProvider = (type, factory) => factory.Create(typeof(SharedResource)); });
+            services.Configure<RequestLocalizationOptions>(options =>
+        {
+            options.DefaultRequestCulture = new RequestCulture(culture: "en-US", uiCulture: "en-US");
+            options.SupportedCultures = supportedCultures;
+            options.SupportedUICultures = supportedCultures;
+        });
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddDbContext<MaisonReveDbContext>(options =>
                     {
                         options.UseSqlServer(Configuration.GetConnectionString("MaisonReveDbContext"));
                     });
-
             services.AddSingleton<IRentTermConverter, RentTermConverter>();
             services.AddScoped<IBuildingRepo, BuildingRepo>();
 
@@ -40,6 +61,9 @@ namespace MaisonReve.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            var locOptions = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(locOptions.Value);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
