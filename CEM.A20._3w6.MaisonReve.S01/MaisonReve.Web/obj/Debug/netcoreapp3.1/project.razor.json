@@ -14392,13 +14392,23 @@
   "RootNamespace": "MaisonReve.Web",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\RentingLots\\Create.cshtml",
+      "TargetPath": "Views\\RentingLots\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Building\\Delete.cshtml",
-      "TargetPath": "Views\\Building\\Delete.cshtml",
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Buildings\\Edit.cshtml",
+      "TargetPath": "Views\\Buildings\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Buildings\\_RentingLotsDetails.cshtml",
+      "TargetPath": "Views\\Buildings\\_RentingLotsDetails.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14417,8 +14427,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Building\\Edit.cshtml",
-      "TargetPath": "Views\\Building\\Edit.cshtml",
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Buildings\\Create.cshtml",
+      "TargetPath": "Views\\Buildings\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14427,8 +14437,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Building\\Details.cshtml",
-      "TargetPath": "Views\\Building\\Details.cshtml",
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\RentingLots\\Delete.cshtml",
+      "TargetPath": "Views\\RentingLots\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14437,8 +14447,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Building\\Index.cshtml",
-      "TargetPath": "Views\\Building\\Index.cshtml",
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Buildings\\Index.cshtml",
+      "TargetPath": "Views\\Buildings\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\RentingLots\\Edit.cshtml",
+      "TargetPath": "Views\\RentingLots\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\RentingLots\\Index.cshtml",
+      "TargetPath": "Views\\RentingLots\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14447,8 +14467,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Building\\Create.cshtml",
-      "TargetPath": "Views\\Building\\Create.cshtml",
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\RentingLots\\Details.cshtml",
+      "TargetPath": "Views\\RentingLots\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Buildings\\Delete.cshtml",
+      "TargetPath": "Views\\Buildings\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bigue\\Desktop\\Web\\Travail\\CEM-3w6-A20-maisonreves-exemple-\\CEM.A20._3w6.MaisonReve.S01\\MaisonReve.Web\\Views\\Buildings\\Details.cshtml",
+      "TargetPath": "Views\\Buildings\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

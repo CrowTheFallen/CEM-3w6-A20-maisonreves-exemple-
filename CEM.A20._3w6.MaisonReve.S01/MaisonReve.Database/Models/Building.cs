@@ -36,6 +36,7 @@ namespace MaisonReve.Database.Models
         [Key]
         public int Id { get; set; }
 
+        [MinLength(3)]
         [Required(ErrorMessage = "Le nom est requis")]
         public string Name { get; set; }
 
@@ -55,14 +56,12 @@ namespace MaisonReve.Database.Models
         public string OwnerFirstName { get; set; }
 
         [Display(Name = "Nom de famille du propriétaire")]
-
         public string OwnerLastName { get; set; }
 
 
         [Display(Name = "Descriptif de l'emplacement")]
         [DataType(DataType.MultilineText)]
-
-        [MaxLength(1500, ErrorMessage = "Maximum de 1500 caractères pour l'adresse.")]
+        [MaxLength(1500, ErrorMessage = "Maximum de {0} caractères pour l'adresse.")]
         public string Description { get; set; }
 
         [Display(Name = "Publié")]

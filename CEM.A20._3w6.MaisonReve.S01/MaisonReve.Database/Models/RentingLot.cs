@@ -22,17 +22,19 @@ namespace MaisonReve.Database.Models
         public string LotNumber { get; set; }
 
         [Display(Name = "Prix")]
+        [DisplayFormat(DataFormatString = "c2")]
         [Column(TypeName = "decimal(10, 2)")]
         public decimal Price { get; set; }
 
         [Display(Name = "Terme de la location")]
         public RentTerm Terms { get; set; }
 
+
         [Display(Name = "Durée du bail offert")]
         public int LeaseLength { get; set; }
 
         [Display(Name = "Nombre de pièces")]
-        [Range(1, int.MaxValue, ErrorMessage = "RoomMin1")]
+        [Range(1, 30, ErrorMessage = "RoomMin1")]
         public int NumberOfRooms { get; set; }
 
         [Display(Name = "Type")]
