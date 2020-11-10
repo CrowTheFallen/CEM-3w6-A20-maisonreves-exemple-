@@ -129,4 +129,12 @@
     <value>Supprime</value>
     <comment/>
   </data>
+  <data name="CREATE" xml:space="preserve">
+    <value>Crée</value>
+    <comment/>
+  </data>
+  <data name="BACKTOLIST" xml:space="preserve">
+    <value>Retour</value>
+    <comment/>
+  </data>
 </root>

@@ -16,6 +16,14 @@
         },
         "runtime": {
           "MaisonReve.Database.dll": {}
+        },
+        "resources": {
+          "en/MaisonReve.Database.resources.dll": {
+            "locale": "en"
+          },
+          "fr/MaisonReve.Database.resources.dll": {
+            "locale": "fr"
+          }
         }
       },
       "Castle.Core/4.4.0": {

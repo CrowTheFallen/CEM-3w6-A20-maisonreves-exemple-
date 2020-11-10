@@ -2647,6 +2647,14 @@
         "runtime": {
           "MaisonReve.Database.dll": {}
         },
+        "resources": {
+          "en/MaisonReve.Database.resources.dll": {
+            "locale": "en"
+          },
+          "fr/MaisonReve.Database.resources.dll": {
+            "locale": "fr"
+          }
+        },
         "compile": {
           "MaisonReve.Database.dll": {}
         }

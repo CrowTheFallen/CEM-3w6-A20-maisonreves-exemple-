@@ -49,16 +49,20 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <partial name="_EditAndBackToListButton" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
+    <script src="https://cdn.tiny.cloud/1/b56sz0g2azllnnlmuwk1gir62gii16wfk6ghfsk18eibuksj/tinymce/5/tinymce.min.js" ></script>
+    <script>
+tinymce.init({
+selector: 'textarea',
+plugins: 'lists',
+menubar: 'file edit format'
+});</script>
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
